@@ -13,6 +13,7 @@
 		583FD07228A1AAD00025B44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583FD07028A1AAD00025B44D /* Main.storyboard */; };
 		583FD07428A1AAD20025B44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583FD07328A1AAD20025B44D /* Assets.xcassets */; };
 		583FD07728A1AAD20025B44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583FD07528A1AAD20025B44D /* LaunchScreen.storyboard */; };
+		583FD07F28A1BF060025B44D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583FD07E28A1BF060025B44D /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		583FD07328A1AAD20025B44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		583FD07628A1AAD20025B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		583FD07828A1AAD20025B44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583FD07E28A1BF060025B44D /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				583FD06A28A1AAD00025B44D /* AppDelegate.swift */,
 				583FD06C28A1AAD00025B44D /* SceneDelegate.swift */,
+				583FD07E28A1BF060025B44D /* UIButton+Extension.swift */,
 				583FD06E28A1AAD00025B44D /* ViewController.swift */,
 				583FD07028A1AAD00025B44D /* Main.storyboard */,
 				583FD07328A1AAD20025B44D /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				583FD06F28A1AAD00025B44D /* ViewController.swift in Sources */,
+				583FD07F28A1BF060025B44D /* UIButton+Extension.swift in Sources */,
 				583FD06B28A1AAD00025B44D /* AppDelegate.swift in Sources */,
 				583FD06D28A1AAD00025B44D /* SceneDelegate.swift in Sources */,
 			);
